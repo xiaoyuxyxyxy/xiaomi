@@ -259,7 +259,7 @@
 }
 .jiadian-left:hover,.jiadian-item:hover,.star-itemss:hover,.xiaohezi:hover{
 	transform:translate(0px, -10px);
-	box-shadow:0 5px 1006px 1px #ccc;
+	box-shadow:0 5px 10.06px 1px #ccc;
 }
 .jiadian-right{
 	width: 992px;
@@ -415,7 +415,7 @@
 .xiaodian{
 	width: 90px;
 	height: 30px;
-	background-color: blue;
+	background-color: #fff;
 	margin:0 auto;
 	margin-top: 12px;
 }
@@ -462,9 +462,84 @@
 	height: 285px;
 	float: left;
     margin-right: 14px;
+   	position: relative;
 }
 .nei{
 	margin: 0;
+}
+.ci03-04{
+	width: 276px;
+	height: 21px;
+}
+.c01{
+	height: 343px;
+}
+.video-bottom{
+	width: 1226px;
+	height: 285px;
+}
+.video-bottom-item01{
+	width: 296px;
+	height: 285px;
+	background-color: white;
+	margin-left: 14px;
+	float: left;
+	position: relative;
+}
+.vi01{
+	margin: 0;
+}
+.vip p{
+	font-family: 'iconfont';
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	left: 20px;
+	top: 136px;
+}
+.vip p:hover{
+	color: #ff6700;
+}
+.c01-top p{
+	float: left;
+	font-size: 14px;
+	line-height: 58px;
+	font-weight: normal;
+	color: #333;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+	
+}
+.c01-top p{
+	font-size: 16px;
+	color: #424242;
+	float: left;
+	font-family: 'iconfont';
+
+}
+.c01-top-right{
+	margin-right: 8px;	
+}
+.sp-you p:nth-child(2){
+	color: #b0b0b0;
+}
+.sp-you{
+	float: right;
+}
+.video-item2{
+	color: #333;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+	margin-top: 28px;
+}
+.video-bottom-item01 h4{
+	color: #b0b0b0;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 7px;
+	font-weight: normal;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
 }
 .tongpin{
 	width: 100%;
@@ -475,9 +550,6 @@
 	width: 1226px;
 	height: 404px;
 }
-.shipin-tupian span{
-	position: absolute;
-}
 
 .xiaohezi neirongxiao h4{
 	color: #b0b0b0;
@@ -486,6 +558,7 @@
 	margin-top: 7px;
 	font-weight: normal;
 	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+	position: relative;
 }
 .map{
 	width: 100%;
@@ -586,7 +659,7 @@
 .dibu-shang{
 	height: 57px;
 	width: 1226px;
-	padding: 0 146.6px;
+	margin: 0 auto;
 }
 .img1{
 	float: left;
@@ -802,3 +875,15 @@
 	border: 2px solid rgba(255,255,255,.7)!important;
     background:rgba(0,0,0,0.4)!important; 
 }
+/* .lunbo{
+	width: 296px;
+	height: 416px;
+	float: left;
+	margin-right: 14px!important;
+}
+.xiaosi{
+	width: 296px;
+	height: 416px;
+	float: left;
+	margin-right: 0px!important;
+} */
